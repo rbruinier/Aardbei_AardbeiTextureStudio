@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="TexStudio.exe"/>
+    <OBJFILES value="TexStudio.obj MainForm.obj Filters.obj Filters\FilterTopLeft.obj 
+      Filters\FilterBoxBlur.obj Filters\FilterBrightness.obj 
+      Filters\FilterBrush.obj Filters\FilterCells.obj Filters\FilterContrast.obj 
+      Filters\FilterCopy.obj Filters\FilterDirBlur.obj Filters\FilterEdge.obj 
+      Filters\FilterEmboss.obj Filters\FilterFractalPlasma.obj 
+      Filters\FilterGaussianBlur.obj Filters\FilterHsv.obj 
+      Filters\FilterInvert.obj Filters\FilterMix.obj 
+      Filters\FilterMotionBlur.obj Filters\FilterMul.obj Filters\FilterNoise.obj 
+      Filters\FilterNotNull.obj Filters\FilterPlasma.obj 
+      Filters\FilterRectangle.obj Filters\FilterShade.obj 
+      Filters\FilterSineDistort.obj Filters\FilterSobel.obj 
+      Filters\FilterSub.obj Filters\FilterText.obj Filters\FilterTile.obj 
+      Filters\FilterAdd.obj Other\NewForm.obj Other\Layer.obj 
+      Other\AboutForm.obj Other\Updates.obj"/>
+    <RESFILES value="TexStudio.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainForm.dfm Filters\FilterTopLeft.dfm 
+      Filters\FilterBoxBlur.dfm Filters\FilterBrightness.dfm 
+      Filters\FilterBrush.dfm Filters\FilterCells.dfm Filters\FilterContrast.dfm 
+      Filters\FilterCopy.dfm Filters\FilterDirBlur.dfm Filters\FilterEdge.dfm 
+      Filters\FilterEmboss.dfm Filters\FilterFractalPlasma.dfm 
+      Filters\FilterGaussianBlur.dfm Filters\FilterHsv.dfm 
+      Filters\FilterInvert.dfm Filters\FilterMix.dfm 
+      Filters\FilterMotionBlur.dfm Filters\FilterMul.dfm Filters\FilterNoise.dfm 
+      Filters\FilterNotNull.dfm Filters\FilterPlasma.dfm 
+      Filters\FilterRectangle.dfm Filters\FilterShade.dfm 
+      Filters\FilterSineDistort.dfm Filters\FilterSobel.dfm 
+      Filters\FilterSub.dfm Filters\FilterText.dfm Filters\FilterTile.dfm 
+      Filters\FilterAdd.dfm Other\NewForm.dfm Other\Layer.dfm 
+      Other\AboutForm.dfm Other\Updates.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib bcbsmp.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi ibxpress.bpi"/>
+    <PATHCPP value=".;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Filters;Other;Other;Other;Other"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="TexStudio.cpp"/>
+    <INCLUDEPATH value="Other;Filters;&quot;C:\Program Files\Borland\CBuilder5\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="Other;Filters;&quot;C:\Program Files\Borland\CBuilder5\Projects&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IOther -IFilters -I&quot;C:\Program Files\Borland\CBuilder5\Projects&quot; 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -ff -X- -a8 
+      -6 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="TexStudio.cpp" FORMNAME="" UNITNAME="TexStudio" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TexStudio.res" FORMNAME="" UNITNAME="TexStudio" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainForm.cpp" FORMNAME="frmMain" UNITNAME="MainForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters.cpp" FORMNAME="" UNITNAME="Filters" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterTopLeft.cpp" FORMNAME="frmTopLeft" UNITNAME="FilterTopLeft" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterBoxBlur.cpp" FORMNAME="frmBoxBlur" UNITNAME="FilterBoxBlur" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterBrightness.cpp" FORMNAME="frmBrightness" UNITNAME="FilterBrightness" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterBrush.cpp" FORMNAME="frmBrush" UNITNAME="FilterBrush" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterCells.cpp" FORMNAME="frmCells" UNITNAME="FilterCells" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterContrast.cpp" FORMNAME="frmContrast" UNITNAME="FilterContrast" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterCopy.cpp" FORMNAME="frmCopy" UNITNAME="FilterCopy" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterDirBlur.cpp" FORMNAME="frmDirBlur" UNITNAME="FilterDirBlur" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterEdge.cpp" FORMNAME="frmEdge" UNITNAME="FilterEdge" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterEmboss.cpp" FORMNAME="frmEmboss" UNITNAME="FilterEmboss" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterFractalPlasma.cpp" FORMNAME="frmFractalPlasma" UNITNAME="FilterFractalPlasma" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterGaussianBlur.cpp" FORMNAME="frmGaussianBlur" UNITNAME="FilterGaussianBlur" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterHsv.cpp" FORMNAME="frmHsv" UNITNAME="FilterHsv" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterInvert.cpp" FORMNAME="frmInvert" UNITNAME="FilterInvert" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterMix.cpp" FORMNAME="frmMix" UNITNAME="FilterMix" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterMotionBlur.cpp" FORMNAME="frmMotionBlur" UNITNAME="FilterMotionBlur" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterMul.cpp" FORMNAME="frmMul" UNITNAME="FilterMul" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterNoise.cpp" FORMNAME="frmNoise" UNITNAME="FilterNoise" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterNotNull.cpp" FORMNAME="frmNotNull" UNITNAME="FilterNotNull" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterPlasma.cpp" FORMNAME="frmPlasma" UNITNAME="FilterPlasma" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterRectangle.cpp" FORMNAME="frmRectangle" UNITNAME="FilterRectangle" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterShade.cpp" FORMNAME="frmShade" UNITNAME="FilterShade" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterSineDistort.cpp" FORMNAME="frmSineDistort" UNITNAME="FilterSineDistort" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterSobel.cpp" FORMNAME="frmSobel" UNITNAME="FilterSobel" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterSub.cpp" FORMNAME="frmSub" UNITNAME="FilterSub" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterText.cpp" FORMNAME="frmText" UNITNAME="FilterText" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterTile.cpp" FORMNAME="frmTile" UNITNAME="FilterTile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Filters\FilterAdd.cpp" FORMNAME="frmAdd" UNITNAME="FilterAdd" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Other\NewForm.cpp" FORMNAME="frmNew" UNITNAME="NewForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Other\Layer.cpp" FORMNAME="frmLayer" UNITNAME="Layer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Other\AboutForm.cpp" FORMNAME="frmAbout" UNITNAME="AboutForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Other\Updates.cpp" FORMNAME="frmUpdates" UNITNAME="Updates" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1043
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=Other;Filters;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item1=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=Other;Filters;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
